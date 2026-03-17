@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="摄影师简介 - 社会纪实摄影">
+    <title>简介 | 摄影师</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <a href="index.html" class="logo">NIU</a>
+        <ul class="nav-links">
+            <li><a href="index.html">首页</a></li>
+            <li><a href="projects.html">项目</a></li>
+            <li><a href="about.html" class="active">简介</a></li>
+            <li><a href="contact.html">联系</a></li>
+        </ul>
+    </nav>
+
+    <main class="page-container">
+        <h1 class="page-title">简介</h1>
+        <div class="about-container">
+            <div class="about-photo-wrapper">
+                <img src="images/portrait.svg" alt="摄影师肖像" class="about-photo" id="aboutPhoto">
+            </div>
+            <div class="about-content" id="aboutContent">
+                <h2>关于我</h2>
+                <p>我是一名中国社会纪实摄影师，长期关注社会话题与公共问题，通过镜头记录时代的变迁与人们的生活状态。</p>
+                <p>我的作品聚焦于城市公共空间、乡村纪实、社会变迁等主题，试图以客观而富有温度的视角，呈现当代中国的社会图景。</p>
+                <p>摄影对我而言，不仅是记录，更是一种观察与思考的方式。我相信，每一张照片都承载着特定时空下的故事，而这些故事值得被看见、被记住。</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">© 2024 NIU. All rights reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAbout();
+        });
+    </script>
+</body>
+</html>
